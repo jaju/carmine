@@ -12,7 +12,7 @@
 
   :dependencies
   [[org.clojure/clojure              "1.5.1"]
-   [com.taoensso/encore              "2.99.0"]
+   [com.taoensso/encore              "2.100.0"]
    [com.taoensso/timbre              "4.10.0"]
    [com.taoensso/nippy               "2.14.0"]
    [org.apache.commons/commons-pool2 "2.4.2"]
@@ -36,7 +36,7 @@
     {:dependencies [[org.clojure/data.json "0.2.6"]]
      :plugins
      [[lein-ancient "0.6.15"]
-      [lein-codox   "0.10.4"]]}]}
+      [lein-codox   "0.10.5"]]}]}
 
   :test-paths ["test" "src"]
 
